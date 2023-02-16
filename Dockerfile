@@ -1,6 +1,6 @@
 FROM clamsproject/clams-python-opencv4
 # general
-RUN apt-get update && apt-get install -y build-essential cmake \
+RUN apt-get --allow-releaseinfo-change update && apt-get install -y build-essential cmake \
     wget git unzip
 
 # lib for tesseract
