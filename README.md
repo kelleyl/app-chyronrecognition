@@ -4,9 +4,7 @@ ___
 This CLAMS app accepts the following query parameters
 
 - pretty
-- sampleRatio: integer, default: 30
-- stopAt: integer, frame number to stop search
-- stopAfterOne: boolean, if true, will stop after first slate segment found
+- sampleRatio: integer, default: 10
 
 ---
 
